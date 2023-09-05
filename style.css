@@ -287,9 +287,91 @@ body {
 
 }
 
-
-
 /* main section style end */
+
+/* footer style start */
+
+.footer-section {
+    margin-top: 10rem;
+    height: 30rem;
+    background-color: #0B0223;
+    position: relative;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    top: 20%;
+    right: 45%;
+}
+
+.footer-title h2 {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.footer-title>h2>span {
+    color: #ff5ab0
+}
+
+.footer-title-2 {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    position: absolute;
+    top: 38%;
+    right: 32%;
+}
+
+.footer-svg {
+    position: absolute;
+    top: 50%;
+    right: 38%;
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-title-3 {
+    display: flex;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    top: 70%;
+    right: 35%;
+    display: flex;
+    gap: 3rem;
+}
+
+#footer-end {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    top: 80%;
+    right: 40%;
+    display: flex;
+    gap: 2rem;
+}
+
+/* footer style end */
+
+
+
+
 /* responsiv for mobile style is tart */
 @media screen and (max-width: 525px) {
     .nav-section {
@@ -344,11 +426,12 @@ body {
 
     .section-title-1 h1 {
         font-size: 28px;
-
+        margin-top: 8rem;
     }
 
     .section-title-1>h1>span {
         font-size: 28px;
+
 
     }
 
@@ -431,5 +514,53 @@ body {
         font-size: 0.8rem;
         font-weight: 600;
         line-height: normal;
+    }
+
+    .footer-section {
+        height: 45rem;
+        position: relative;
+    }
+
+    .footer-title {
+        position: absolute;
+        top: 23%;
+        right: 25%;
+    }
+
+    .footer-title-2 {
+        width: 80%;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 38%;
+        right: 10%;
+    }
+
+    .footer-svg {
+        width: 60%;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 58%;
+        right: 15%;
+        display: flex;
+        gap: 2rem;
+    }
+
+    .footer-title-3 {
+        width: 70%;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 82%;
+        right: 7%;
+        display: flex;
+        gap: 2rem;
+    }
+
+    #footer-end {
+        width: 48%;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 95%;
+        right: 27%;
+
     }
 }
