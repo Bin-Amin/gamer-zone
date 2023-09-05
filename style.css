@@ -65,6 +65,7 @@ body {
     align-items: center;
     justify-content: space-around;
     background-color: ffffff;
+    margin-top: 3rem;
 
 }
 
@@ -144,6 +145,79 @@ body {
 
 /* benar section style end */
 
+/* main section style start  */
+.main-section {
+    margin: 8rem 0rem;
+}
+
+.section-title-1 {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+
+}
+
+.section-title-1 h1 {
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section-title-1>h1>span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section-title-1 small {
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.img-section {
+    display: flex;
+    align-items: center;
+    margin-left: 8rem;
+    gap: 3rem;
+
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.img-section img {
+    width: 15rem;
+
+}
+
+.img-section small {
+    color: #534C64;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+
+}
+
+/* main section style end */
 /* responsiv for mobile style is tart */
 @media screen and (max-width: 525px) {
     .nav-section {
@@ -166,6 +240,7 @@ body {
         justify-content: center;
         margin-top: 5rem;
         height: 30rem;
+
     }
 
     .benar-1 {
@@ -187,6 +262,42 @@ body {
 
     .benar-2 img {
         height: 17rem;
+    }
+
+    .main-section {
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+
+    }
+
+    .section-title-1 h1 {
+        font-size: 28px;
+
+    }
+
+    .section-title-1>h1>span {
+        font-size: 28px;
+
+    }
+
+    .section-title-1 small {
+        font-size: 12px;
+    }
+
+    .img-section {
+        flex-direction: column;
+    }
+
+    .img-section img {
+        width: 20rem;
+    }
+
+    .img {
+        margin-right: 8rem;
+    }
+
+    .img-section small {
+        margin-left: 3rem;
     }
 
 }
